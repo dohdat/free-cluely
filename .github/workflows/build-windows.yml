@@ -30,6 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cluely-windows-build
-          path: |
-            release
-            dist-electron
+          path: release/**
